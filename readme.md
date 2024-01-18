@@ -8,6 +8,30 @@ this is my place to learn js.
 //code mein koi bhi data store krne ke liye jo use hota hai usse khete hai variables(jiski value bdle)
 //constant is also used to store data but it remains same but if we try to change it,it give error
 
+
+
+//console.log('hello world');
+let name = 'mehak';
+console.log(name);
+//cannot be a reserved keyword
+//should be meaningful
+//cannot start with a number(eg.1name)
+//are case sensitive
+let firstname='mehak',lastname='singla';
+//best way to do this
+let firstnam='mehak';
+let lastnam='singla';
+//the value of variable can change but the value of constant cannot change
+const interestrate=0.3;
+//primitive/value types
+let myname='mehak';//string literal
+let age=30;//number literal
+let isApproved=false;//boolean literal
+let myFirstName=undefined;
+let myLastName=null;
+let selectedcolor='red';
+//dynamic typing
+
 //hosting and hoisting are differnt
 //hoisting-variable and functions are hoisted which means there declaration is moved on the top of code
 //variable ko hoist krne se phle bhi hm use kr skte hau
